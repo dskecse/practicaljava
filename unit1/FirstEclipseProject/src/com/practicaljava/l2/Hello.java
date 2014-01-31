@@ -1,3 +1,5 @@
+package com.practicaljava.l2;
+
 public class Hello {
 
   /**
