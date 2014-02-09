@@ -6,12 +6,14 @@ public class TestTax {
    * @param args
    */
   public static void main(String[] args) {
-    Tax tax = new Tax();
+    NJTax tax = new NJTax(); // special for NJ
 
-    tax.grossIncome = 50000;
+    tax.grossIncome = 50000.45;
     tax.dependents = 2;
     tax.state = "NJ";
 
-    System.out.printf("Your tax is %.2f", tax.calcTax());
+    double yourTax = tax.calcTax();
+
+    System.out.printf("Your tax is %.2f", tax.adjustForStudents(yourTax));
   }
 }
