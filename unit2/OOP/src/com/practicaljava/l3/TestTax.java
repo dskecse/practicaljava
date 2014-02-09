@@ -12,8 +12,6 @@ public class TestTax {
     tax.dependents = 2;
     tax.state = "NJ";
 
-    double yourTax = tax.calcTax();
-
-    System.out.println("Your tax is " + yourTax);
+    System.out.println("Your tax is " + tax.calcTax());
   }
 }
