@@ -12,6 +12,6 @@ public class TestTax {
     tax.dependents = 2;
     tax.state = "NJ";
 
-    System.out.println("Your tax is " + tax.calcTax());
+    System.out.printf("Your tax is %.2f", tax.calcTax());
   }
 }
