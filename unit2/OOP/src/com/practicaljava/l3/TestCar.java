@@ -1,4 +1,4 @@
-package com.practicaljava.l2;
+package com.practicaljava.l3;
 
 public class TestCar {
 
